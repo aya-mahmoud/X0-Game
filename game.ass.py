@@ -16,11 +16,11 @@ mat=[['1','2','3'],
 
 for step in range (9):
 
-  number=str(input('enter number:'))
+  number=input('enter number:')
        
-  for row in range (0,3):
+  for row in range (3):
       k=1
-      for column in range (0,3):
+      for column in range (3):
           if (mat[row][column]==number):
               k=0
               break
