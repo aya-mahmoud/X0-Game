@@ -23,7 +23,6 @@ for step in range (9):
       for column in range (0,3):
           if (mat[row][column]==number):
               k=0
-              print(mat[row][column])
               break
       if k==0:
           break
